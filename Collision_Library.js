@@ -14,7 +14,6 @@ function crash(id1, id2) {
     var rightElement1 = LeftPositionElement1 + widthElement1;
     var BottomElement2 = TopPositionElement2 + heightElement2;
     var rightElement2 = LeftPositionElement2 + widthElement2;
-    //debugger;
 
     if (LeftPositionElement1 > rightElement2 || LeftPositionElement2 > rightElement1) {
         return false;
@@ -23,11 +22,6 @@ function crash(id1, id2) {
     if (TopPositionElement1 > BottomElement2 || TopPositionElement2 > BottomElement1) {
         return false;
     }
-
-    console.log("LeftPositionElement1:" + LeftPositionElement1);
-    console.log("LeftPositionElement2:" + LeftPositionElement2);
-    console.log("rightElement1:" + rightElement1);
-    console.log("rightElement2:" + rightElement2);
 
     return true;
 }
