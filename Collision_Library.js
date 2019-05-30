@@ -27,6 +27,6 @@ function crash(id1, id2) {
 }
 
 // To call:
-//if (crash("ball 1 id", "ball 2 id")) {
+//if (crash("ID image 1", "ID image 2")) {
     // do sometthing
 //}
