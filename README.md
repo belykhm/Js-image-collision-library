@@ -5,7 +5,7 @@ To use<br>
 Do this:
 
 ```javascript
-<script src="https://michaelco.azurewebsites.net/Libraries/Collision_Library.js"></script>
+<script src="Collision_Library.js"></script>
 
 <script>
 
